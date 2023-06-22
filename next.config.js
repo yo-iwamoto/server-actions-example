@@ -16,5 +16,6 @@ module.exports = withVanillaExtract({
     typedRoutes: true,
     turbo: true,
     appDir: true,
+    serverActions: true,
   },
 });

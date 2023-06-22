@@ -1,3 +1,4 @@
+import { Form } from './Form';
 import { styles } from './page.css';
 import { prisma } from '@/lib/db';
 
@@ -11,7 +12,10 @@ export default async function Page() {
   return (
     <main className={styles.container}>
       <div className={styles.inner}>
-        <h1 className={styles.heading}>posts</h1>
+        <div>
+          <h1 className={styles.heading}>posts</h1>
+          <Form />
+        </div>
         <ul className={styles.list}>
           {posts.map((post) => (
             <li key={post.id}>
