@@ -14,7 +14,7 @@
     "sb:build": "storybook build"
   },
   "dependencies": {
-    "@prisma/client": "^4.16.0",
+    "@prisma/client": "^5.0.0",
     "@t3-oss/env-nextjs": "^0.3.1",
     "clsx": "^1.2.1",
     "next": "^13.4.4",
@@ -55,7 +55,7 @@
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "prisma": "^4.16.0",
+    "prisma": "^5.0.0",
     "storybook": "^7.0.18",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4",
